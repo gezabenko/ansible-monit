@@ -1,0 +1,40 @@
+\
+ansible.cfg
+ansible/secret
+secret
+tmp
+*.retry
+
+# Remove the line below to store encrypted secrets in
+# the git repository
+.encfs.secret
+
+roles
+playbooks
+
+#-- python
+*.py[co]
+
+#-- vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+#-- Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+#-- SublimeText
+*.sublime-workspace
+#*.sublime-project
+
+#-- sftp configuration file
+sftp-config.json
